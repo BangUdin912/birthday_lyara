@@ -14,8 +14,12 @@ function switchScreen(from, to) {
     { q: "Pertama kali kita main game apa?", a: "Mobile Legend" },
     { q: "Makanan favorit kita?", a: "Sate" },
     { q: "Jarak umur kita berapa? (..tahun ..bulan)", a: "3 tahun 11 bulan" },
+    { q: "Ulang tahun mas kapan coba?", a: "9 Januari 2002" },
     { q: "Nama lengkap Mas?", a: "Nur Khoerudin" },
-    { q: "Rumah Mas dimana?", a: "Purwokerto" }
+    { q: "Mas Kuliah dimana?", a: "Telkom Purwokerto" },
+    { q: "Jurusannya apa coba?", a: "Sistem Informasi" },
+    { q: "Rumah Mas dimana?", a: "Purwokerto" },
+    { q: "Mas paling takut sama apa?", a: "Tokek" }
   ];
   
   let currentQuestion = 0;
@@ -107,4 +111,5 @@ function switchScreen(from, to) {
   }
 
   
+
 
