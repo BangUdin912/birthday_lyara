@@ -64,7 +64,7 @@ function switchScreen(from, to) {
     },
     3: {
       title: "Makan-makan 🎂",
-      text: "Info makan-makan nya atuhhh sayang, mas yang traktir atau kamu nii?" wkwk
+      text: "Info makan-makan nya atuhhh sayang, mas yang traktir atau kamu nii? wkwk"
     }
   };
   
@@ -107,3 +107,4 @@ function switchScreen(from, to) {
   }
 
   
+
