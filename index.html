@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Untuk Lyara 💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SCREEN 1 -->
+<section id="screen-letter" class="screen active">
+  <div class="glass">
+    <h1>Sebuah Surat Untukmu</h1>
+    <p>Klik untuk membuka</p>
+    <img src="images/envelope.png" id="envelope">
+  </div>
+</section>
+
+<!-- SCREEN 2 -->
+<section id="screen-game" class="screen">
+    <div class="glass">
+        <h1>Tebak Coba 💖</h1>
+      
+        <div id="progress">
+          <div id="progress-bar"></div>
+        </div>
+      
+        <p id="question"></p>
+      
+    <input type="text" id="answer" placeholder="Jawabanmu">
+    <button onclick="submitAnswer()">Jawab</button>
+    <p id="feedback"></p>
+  </div>
+</section>
+
+<!-- SCREEN 3 -->
+<section id="screen-cards" class="screen">
+  <div class="glass">
+    <h1>Silahkan dibuka 🎁</h1>
+    <div class="cards">
+      <img src="images/gift.png" onclick="openCard(1)">
+      <img src="images/gift2.png" onclick="openCard(2)">
+      <img src="images/gift3.png" onclick="openCard(3)">
+    </div>
+    <div class="special-gift" onclick="goToHangout()">
+        ✨ Kado Spesial ✨
+      </div>
+  </div>
+
+
+</section>
+
+
+<!-- SCREEN 4 -->
+<section id="screen-message" class="screen">
+  <div class="glass">
+    <img src="images/lyara.jpg" class="photo">
+    <h1 id="cardTitle"></h1>
+    <p id="cardMessage"></p>
+    <button onclick="backToCards()">Kembali</button>
+  </div>
+</section>
+
+<!-- SCREEN 5 -->
+<section id="screen-hangout" class="screen">
+    <div class="glass">
+      <h1>Ajakan Hangout 💕</h1>
+      <p>Isi yaa, biar kita bisa jalan bareng 😊</p>
+  
+      <input type="text" id="hangoutPlace" placeholder="Tempat hangout">
+      <input type="text" id="hangoutTime" placeholder="Waktu / tanggal">
+  
+      <button onclick="sendToWA()">Kirim ke WhatsApp</button>
+    </div>
+  </section>
+  
+
+<script src="script.js"></script>
+</body>
+</html>
