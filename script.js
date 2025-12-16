@@ -55,16 +55,16 @@ function switchScreen(from, to) {
   
   const cardMessages = {
     1: {
-      title: "Lyara Venesa Allya 💖",
+      title: "Lyara Verena Allya 💖",
       text: "Selamat ulang tahun ke-20 yaa sayang. Semoga selalu sehat, bahagia, dan semua yang kamu impikan pelan-pelan terwujud 🤍"
     },
     2: {
       title: "Janji Kecil ✨",
-      text: "Semoga kita bisa ketawa bareng-bareng terus, cerita hal semua hal bisa kecil besar atau bahkan random, dan saling jaga dan perhatian satu sama lain."
+      text: "Semoga kita bisa ketawa bareng-bareng terus, bisa cerita semua hal entah kecil,besar atau bahkan random, saling jaga dan perhatian satu sama lain."
     },
     3: {
       title: "Makan-makan 🎂",
-      text: "Info makan-makan nya atuhhh sayang, mas yang traktir atau kamu nii?"
+      text: "Info makan-makan nya atuhhh sayang, mas yang traktir atau kamu nii?" wkwk
     }
   };
   
@@ -105,4 +105,5 @@ function switchScreen(from, to) {
   function goToHangout() {
     switchScreen("screen-cards", "screen-hangout");
   }
+
   
